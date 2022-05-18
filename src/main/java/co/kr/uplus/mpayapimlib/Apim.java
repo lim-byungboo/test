@@ -89,6 +89,12 @@ public class Apim {
 		if(_instance == null) {
 			_instance = new Apim(privateHost, privatePort, publicHost, publicPort, isLoadRunner);
 			
+			
+			//------------------------
+			//branch prj 에서 수정함......
+			//------------------------
+
+			
 			//인증 토크 관리 객체 init
 			ApimOauthManager.init();
 		}
