@@ -3,13 +3,7 @@ package co.kr.uplus.mpayapimlib;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileReader;
 import java.io.InputStreamReader;
-import java.nio.charset.StandardCharsets;
-
-import co.kr.uplus.mpayapimlib.api.ApimApi_Sample;
-import co.kr.uplus.mpayapimlib.api.res.ApimApi_SampleRes;
-import lombok.extern.slf4j.Slf4j;
 
 /**
  * @author lbb1231
@@ -23,11 +17,6 @@ public class MpayApimLibApplication {
 	 */
 	public static void main(String[] args) {
 		try {
-			//------------------------
-			//branch prj 에서 수정함......
-			//------------------------
-			
-			
 //			//********************************************************************************
 //			//Apim 초기화(init) 처리는 Secrets Manager 로 부터 설정값을 취득한후 한번만 처리하면됨.
 //			//********************************************************************************
