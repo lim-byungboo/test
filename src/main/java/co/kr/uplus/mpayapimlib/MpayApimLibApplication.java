@@ -3,13 +3,7 @@ package co.kr.uplus.mpayapimlib;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileReader;
 import java.io.InputStreamReader;
-import java.nio.charset.StandardCharsets;
-
-import co.kr.uplus.mpayapimlib.api.ApimApi_Sample;
-import co.kr.uplus.mpayapimlib.api.res.ApimApi_SampleRes;
-import lombok.extern.slf4j.Slf4j;
 
 /**
  * @author lbb1231
